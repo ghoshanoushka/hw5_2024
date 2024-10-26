@@ -173,7 +173,7 @@ header {
     }
 
     /* Adds thumbs up symbol to the second line/item in each card for print */
-    .card ul li:nth-of-type(2)::after {
+    .card ul li:nth-child(2)::after {
         content: "👍";
     }
 }
